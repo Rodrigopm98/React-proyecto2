@@ -6,14 +6,15 @@ import TopBar from './TopBar';
 
 function ContentWrapper() {
   return (
+    <React.Fragment>
     <div id="content-wrapper" className="d-flex flex-column">
-    {/*<!-- Main Content -->*/}
     <div id="content">
         <TopBar />
         <ContentRowTop />
         <Footer />
     </div>
 </div>
+</React.Fragment>
   )
 }
 
